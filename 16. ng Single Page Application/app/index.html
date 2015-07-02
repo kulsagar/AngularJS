@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="eventsApp">
+<head>
+<meta charset=UTF-8">
+<title>Event Registration</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<ul class="nav">
+                    <li><a href="#/eventDetails">Home</a></li>
+					<li><a href="#/newEvent/123">Create Event</a></li>
+
+				</ul>
+			</div>
+		</div>
+		<ng-view></ng-view>
+	</div>
+	<script src="lib/jquery-2.0.3.min.js"></script>
+	<script src="lib/bootstrap.min.js"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="lib/angular/angular-resource.js"></script>
+	<script src="lib/angular/angular-route.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers/EventController.js"></script>
+	<script src="js/controllers/EditEventController.js"></script>
+	<script src="js/services/EventData.js"></script>
+	<script src="js/filters.js"></script>
+</body>
+</html>

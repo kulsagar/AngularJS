@@ -1,0 +1,13 @@
+{
+    "id":999,
+    "name": "Angular Boot Camp",
+    "date": "01/01/2014",
+    "time": "10:30 am",
+    "price": 100,
+    "location": {
+        "address": "CapGemini India",
+        "city": "Pune",
+        "state": "Maharashtra"
+    },
+    "imageUrl": "img/AngularJS.png"
+}
